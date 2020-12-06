@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
     stages {
@@ -19,5 +20,5 @@ pipeline {
                         sh 'echo $(curl localhost:8080)'
                     }
                 }
-    }
-}
+            }
+        }
